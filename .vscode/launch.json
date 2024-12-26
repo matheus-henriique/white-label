@@ -21,6 +21,13 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
+        },
+        {
+            "name": "Finnance Self",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_Finnace_self.dart",
+            "args": ["--flavor", "finnace_self"]
         }
     ]
 }

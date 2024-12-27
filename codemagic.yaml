@@ -14,7 +14,7 @@ workflows:
       # - name: Build iOS
       #   script: flutter build ios --flavor finnace_self -t lib/main_Finnace_self.dart
     artifacts:
-      - build/app/outputs/flutter-apk/app-finnanca-elf.apk
+      - build/app/outputs/flutter-apk/app-finnance-self.apk
       # - build/ios/ipa/*.ipa
 
   wallat:

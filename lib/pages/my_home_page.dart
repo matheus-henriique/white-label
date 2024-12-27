@@ -6,7 +6,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(F.title),
+        centerTitle: true,
+        title: Text(F.title, style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+        backgroundColor: Colors.orangeAccent,
       ),
       body: Center(
         child: Text(

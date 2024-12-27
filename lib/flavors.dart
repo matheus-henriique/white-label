@@ -1,5 +1,6 @@
 enum Flavor {
   finnace_self,
+  wallat,
 }
 
 class F {
@@ -11,6 +12,8 @@ class F {
     switch (appFlavor) {
       case Flavor.finnace_self:
         return 'Finnace Self';
+      case Flavor.wallat:
+        return 'Wallat';
       default:
         return 'title';
     }

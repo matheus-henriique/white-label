@@ -28,6 +28,13 @@
             "type": "dart",
             "program": "lib/main_Finnace_self.dart",
             "args": ["--flavor", "finnace_self"]
+        },
+        {
+            "name": "Wallat",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_Wallat.dart",
+            "args": ["--flavor", "wallat"]
         }
     ]
 }

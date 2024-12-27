@@ -102,3 +102,13 @@ flavorizr:
       
       ios:
         bundleId: "com.finnace.self"
+    Wallat: 
+      app:
+        name: "Wallat"
+        id: "com.wallat.self"
+      
+      android: 
+        applicationId: "com.wallat.self"
+      
+      ios:
+        bundleId: "com.wallat.self"

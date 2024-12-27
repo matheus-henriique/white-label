@@ -10,9 +10,9 @@ workflows:
       - name: Run Flutter Flavorizr
         script: flutter pub run flutter_flavorizr
       - name: Build APK
-        script: flutter build apk --flavor finnaca_self -t lib/main_development.dart
+        script: flutter build apk --flavor finnaca_self -t lib/main_Finnace_self.dart
       - name: Build iOS
-        script: flutter build ios --flavor finnaca_self -t lib/main_development.dart
+        script: flutter build ios --flavor finnaca_self -t lib/main_Finnace_self.dart
     artifacts:
       - build/app/outputs/flutter-apk/finnanca_self.apk
       - build/ios/ipa/*.ipa
@@ -28,9 +28,9 @@ workflows:
       - name: Run Flutter Flavorizr
         script: flutter pub run flutter_flavorizr
       - name: Build APK
-        script: flutter build apk --flavor wallat -t lib/main_staging.dart
+        script: flutter build apk --flavor wallat -t lib/main_Wallat.dart
       - name: Build iOS
-        script: flutter build ios --flavor wallat -t lib/main_staging.dart
+        script: flutter build ios --flavor wallat -t lib/main_Wallat.dart
     artifacts:
       - build/app/outputs/flutter-apk/wallat.apk
       - build/ios/ipa/*.ipa
